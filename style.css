@@ -1,0 +1,75 @@
+body {
+    width: 800px;
+  margin: auto;
+  }
+  
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 38px;
+    position: relative;
+    top: -2px; left: 10px;
+  
+    display: inline-block;
+  }
+    
+  
+  #the-best{
+    font-family: 'Krub', sans-serif;
+    display: inline-block;
+  
+    color: gray;
+    Font-size: 11px;
+    position: relative;
+    top: 11px; left: -135px;
+  
+  }
+  #two-icon{
+    position: relative;
+    top: 50px; left: 98px;
+    display: inline-block;
+    float: right;
+   
+  
+  }
+
+  #list {
+    width: 800px;
+    display: flex;
+    background-image: url(./list-bg.png);
+    
+  }
+  
+  #van {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: space-between;
+
+
+  }
+
+
+
+  #big-fork{
+    position: relative;
+  top: 10px; left: 10px;
+  }
+  #print{
+    padding-left: 850px;
+    height: 12px;
+    width: 12px;
+  }
+  #icons{
+    display: inline-block;
+    float: right;
+    position: relative;
+  top: 50px; left: 86px;
+  }
+  button{
+    align-items: center;
+   
+    background-color: #d16134e0;
+    width: 163px;
+    height: 50px;
+  }

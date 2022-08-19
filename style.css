@@ -3,34 +3,33 @@ body {
   margin: auto;
   }
   
-  h1{
+  #delicious{
+    display: inline-block;
     font-family: 'Pacifico', cursive;
     font-size: 38px;
     position: relative;
     top: -2px; left: 10px;
   
-    display: inline-block;
-  }
     
-  
-  #the-best{
-    font-family: 'Krub', sans-serif;
+  }
+    #mail-rss{
+    position: relative;
+    top: 50px; left: 98px;
     display: inline-block;
+    float: right;
+    padding: 0px 20px;
+  }
   
+  #tital{
+    font-family:'Krub', sans-serif;
+    display: inline-block;
     color: gray;
     Font-size: 11px;
     position: relative;
     top: 11px; left: -135px;
   
   }
-  #two-icon{
-    position: relative;
-    top: 50px; left: 98px;
-    display: inline-block;
-    float: right;
-   
   
-  }
 
   #list {
     width: 800px;
@@ -69,7 +68,20 @@ body {
   button{
     align-items: center;
    
-    background-color: #d16134e0;
+    background-color: rgb(212,101,58);
     width: 163px;
     height: 50px;
   }
+
+  #small-logo{
+align-items: center; 
+    margin-top: 20px;
+    padding: 0px 50%;
+    border-top: solid hsl(0deg 20% 83% / 70%);
+}
+.copy-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
